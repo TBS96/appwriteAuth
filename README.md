@@ -6,7 +6,7 @@
 - ### `Navigation dependencies:`
 
  ```bash
- npm install @react-navigation/native`
+ npm install @react-navigation/native
 ```
 
 ```bash
