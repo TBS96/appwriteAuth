@@ -116,4 +116,12 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+
+    implementation "com.facebook.react:react-native:+"  // From node_modules
+    implementation project(':react-native-config')
 }
+
+// imp config
+apply from: project(':react-native-config').projectDir.getPath() + "/dotenv.gradle"
+
+apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
